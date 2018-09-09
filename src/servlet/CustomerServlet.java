@@ -26,7 +26,7 @@ public class CustomerServlet extends BaseServlet {
 
         customerService.add(customer);
 
-        request.setAttribute("msg", "恭喜，成功添加客户");
+        request.setAttribute("msg", "恭喜，添加客户成功");
 
         return "/msg.jsp";
     }
